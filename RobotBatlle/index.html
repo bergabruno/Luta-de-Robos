@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Batalha de Robôs</title>
+</head>
+<body>
+  <main>
+    <div class="game-info">
+      <p>Colisões: <span class="collisions">0</span></p>
+      <div class="player-info">
+        <span class="name">Player 1</span>
+        <progress class="progress" value="100" max="100"></progress>
+        <span class="life">100</span>
+      </div>
+      <div class="player-info">
+        <span class="name">Player 2</span>
+        <progress class="progress" value="100" max="100"></progress>
+        <span class="life">100</span>
+      </div>
+    </div>
+    <canvas width="600" height="400" id="canvas"></canvas>
+    <div class="finish-game">
+      <div class="modal">
+        <h1>Fim de jogo</h1>
+        <div class="content"></div>
+        <button class="reset">Reiniciar</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>
